@@ -22,7 +22,7 @@ const searchInsert = (arr, val)=>{
     if(arr[i] === val){
         index = i;
     }else if(arr[i] > val){
-        index = i +1
+        index = i -1
     }else{
         index = arr.length
     }
@@ -30,4 +30,4 @@ const searchInsert = (arr, val)=>{
  return index
 }
 
-console.log(searchInsert( [1,3,5,],6))
+console.log(searchInsert( [1,3,5,],2))
