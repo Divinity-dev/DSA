@@ -18,8 +18,8 @@ const arrays = (x, y)=> {
         
     }
 
-    arr.push(x)
-    arr.push(y)
+    arr.push(...x)
+    arr.push(...y)
 return arr;
 
 }

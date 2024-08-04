@@ -21,7 +21,8 @@
 // Example 3:
 const plusOne = (int)=>{
 let num = int.join('') ;
-return parseInt(num) + 1;
+const arr = parseInt(num) + 1
+return arr.toString().split('').map(Number);
 }
 
 console.log(plusOne( [1,2,3]))

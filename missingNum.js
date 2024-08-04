@@ -1,7 +1,8 @@
 /**
  Missing Number
 
-Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
+Given an array nums containing n distinct numbers in the range [0, n], return the only number in the 
+range that is missing from the array.
 
 Example 1:
 
@@ -21,7 +22,7 @@ Explanation: n = 9 since there are 9 numbers, so all numbers are in the range [0
  */
 function missingNum(nums){
 //     const missing = []
-//     const array = arr.sort((a,b) => {
+//     const array = nums.sort((a,b) => {
 //         a-b
 //     })
 //     for(let i = 0; i < array[array.length - 1]; i++){
